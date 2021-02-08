@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#wrapper {
+    font-family: 'Roboto Mono', monospace;
+    color: #D8D46C;
+}
+main {
+    margin: 30px;
+}
+body {
+    margin: 0;
+    background-color: black;
+}
+nav {
+    padding: 30px 0;
+    background-color: #D8D46C;
+}
+
+nav a {
+    margin: 0;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.2s;
+}
+nav a:hover {
+    /* color: white; */
+    background-color: #FFFBA6;
+}
+h1 {
+    background-color: #FFFBA6;
+    margin: 0;
+    padding: 30px;
+    font-size: 50px;
+    color: black;
+    background-image: url(../images/guitar.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+}
+
+
+.index ul {
+    margin: 20px;
+    color: #D8D46C;
+}
+.index ul li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #D8D46C;
+    transition: 0.2s;
+}
+.index ul li{
+    font-size: 20px;
+    color: #D8D46C;
+    list-style: upper-roman;
+}
+.index a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 40px;
+    color: #D8D46C;
+    transition: 0.3s;
+}
+p {
+    font-size: 25px;
+    color: white;
+    width: 87%;
+}
+p a {
+    color: #D8D46C;
+    text-decoration: none;
+}
+p a:hover {
+    text-decoration: underline;
+}
+hr {
+    margin: 0;
+    color: #D8D46C;
+    height: 12px;
+    width: 80%;
+    background-color: #D8D46C;
+    border: none;
+}
+#resources {
+    font-size: 25px;
+    color: white;
+    width: 87%;
+}
+#resources a {
+    color: #D8D46C;
+    text-decoration: none;
+}
+#resources a:hover {
+    text-decoration: underline;
+}
+.top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.top a {
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: #D8D46C;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #D8D46C;
+    transition: 0.2s;
+}
+.top a:hover {
+    background-color: black;
+    color: #D8D46C;
+}
+.current-page {
+    background-color: black;
+    color: #D8D46C;
+}
+.current-page:hover {
+    background-color: black;
+    color: #D8D46C;
+}
+table, td, th {
+    border-collapse: collapse;
+}
+th {
+    background-color: #D8D46C;
+    color: black;
+    border: 3px solid #D8D46C;
+}
+table {
+    width: 90%;
+    margin: 40px auto;
+    border: 3px solid #D8D46C;
+}
+td {
+    border: 3px solid #D8D46C;
+}
+
+tr, td, th {
+    font-size: 30px;
+    text-align: left;
+    padding: 20px;
+    transition: .2s;
+}
+td:hover {
+    background-color: #D8D46C;
+    color: black;
+}
+#empty {
+    background-color: #D8D46C;
+    border: none;
+
+}
+.emphasis {
+    font-size: 29px;
+    font-weight: bold;
+}
+#stairway{
+    height: 0px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+#stairway a:hover {
+    color: white;
+}
+h3 {
+    margin: 10px;
+    font-size: 50px;
+    transition: 0.2s;
+}
+h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#floyd {
+    height: 0px;
+    overflow: hidden;
+}
+#floyd a:hover {
+    color: white;
+}
+#september {
+    height: 0px;
+    overflow: hidden;
+}
+#september a:hover {
+    color: white;
+}
+#tune, #ezsongs, #ezchords, #finger {
+    height: 0px;
+    overflow: hidden;
+    transition: 0.2s;
+    width: fit-content;
+    margin: 0 auto;
+}
+.video-left {
+    width: 45%;
+    float: left;
+    margin: auto;
+}
+.video-right {
+    width: 45%;
+    float: right;
+    margin: 0 auto;
+}
+h4 {
+    text-align: center;
+    line-height: 60px;
+    width: 100%;
+    font-size: 30px;
+    background-color: #D8D46C;
+    color: black;
+    border: 2px solid #D8D46C;
+    transition: 0.1s;
+}
+h4:hover {
+    background-color: black;
+    color: #D8D46C;
+    cursor: pointer;
+}
+.clearfix {
+    clear: both;
+}
+input[type=submit] {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
+    background-color: black;
+    border: 2px solid #D8D46C;
+    color: #D8D46C;
+    padding: 10px;
+    transition: 0.2s;
+}
+input[type=submit]:hover {
+    background-color: #D8D46C;
+    color: black;
+    cursor: pointer;
+}
+label {
+    font-size: 30px;
+}
+input[type=text], input[type=email], textarea{
+    padding-left: 10px;
+    font-size: 25px;
+    bottom: 10px;
+    height: 45px;
+    width: 200px;
+    border: 2px solid #D8D46C;
+    background-color: black;
+    color: #D8D46C;
+}
+textarea {
+    height: 200px;
+    width: 500px;
+}
+input[type=email] {
+    width: 350px;
+}
+form {
+    margin-left: 50px;
+}
+footer {
+    font-size: 16px;
+    margin: 20px;
+    text-align: center;
+    border-top: 3px solid #D8D46C;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+footer a {
+    text-decoration: none;
+    color: #D8D46C;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
