@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Tutorials :: Chords</title>
+    <link rel="stylesheet" href="css/final.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Guitar Tutorials</h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="chords.html" class="current-page">Chords</a>
+            <a href="tabs.html">Tabs</a>
+            <a href="tutorials.html">Tutorials</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <main>
+            <h2>Chord Library</h2>
+            <p>Below you will find a table of chords that you can use to play your favorite songs. The 6 vertical lines
+                represent the guitar's strings, beginning with the low E string and ending with the high E string. An X
+                above the string indicates that it should not be strummed, while an O indicates it should be strummed
+                open (without pressing any of the frets). Each horizontal line represents a particular fret along the
+                guitar.<br><br><span class="emphasis">To get started, click on the chord which you would like to
+                    see.</span>
+            </p>
+            <br>
+            <hr><br><br>
+            <table id="table">
+                <tr>
+                    <td id="empty"></td>
+                    <th>A</th>
+                    <th>Bb</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>Db</th>
+                    <th>D</th>
+                    <th>Eb</th>
+                    <th>E</th>
+                    <th>F</th>
+                    <th>F#</th>
+                    <th>G</th>
+                    <th>G#</th>
+                </tr>
+
+                <tr>
+                    <th>Major</th>
+                    <td onclick="showChord('A')" id="A">AM</td>
+                    <td onclick="showChord('Bb')" id="Bb">BbM</td>
+                    <td onclick="showChord('B')" id="B">BM</td>
+                    <td onclick="showChord('C')" id="C">CM</td>
+                    <td onclick="showChord('Db')" id="Db">DbM</td>
+                    <td onclick="showChord('D')" id="D">DM</td>
+                    <td onclick="showChord('Eb')" id="Eb">EbM</td>
+                    <td onclick="showChord('E')" id="E">EM</td>
+                    <td onclick="showChord('F')" id="F">FM</td>
+                    <td onclick="showChord('Fs')" id="Fs">F#M</td>
+                    <td onclick="showChord('G')" id="G">GM</td>
+                    <td onclick="showChord('Gs')" id="Gs">G#M</td>
+                </tr>
+                <tr>
+                    <th>Minor</td>
+                    <td onclick="showChord('Am')" id="Am">Am</td>
+                    <td onclick="showChord('Bbm')" id="Bbm">Bbm</td>
+                    <td onclick="showChord('Bm')" id="Bm">Bm</td>
+                    <td onclick="showChord('Cm')" id="Cm">Cm</td>
+                    <td onclick="showChord('Dbm')" id="Dbm">Dbm</td>
+                    <td onclick="showChord('Dm')" id="Dm">Dm</td>
+                    <td></td>
+                    <td onclick="showChord('Em')" id="Em">Em</td>
+                    <td onclick="showChord('Fm')" id="Fm">Fm</td>
+                    <td onclick="showChord('Fsm')" id="Fsm">F#m</td>
+                    <td onclick="showChord('Gm')" id="Gm">Gm</td>
+                    <td onclick="showChord('Gsm')" id="Gsm">G#m</td>
+                </tr>
+                <tr>
+                    <th>Maj7</td>
+                    <td onclick="showChord('A7')" id="A7">A7</td>
+                    <td onclick="showChord('Bb7')" id="Bb7">Bb7</td>
+                    <td onclick="showChord('B7')" id="B7">B7</td>
+                    <td onclick="showChord('C7')" id="C7">C7</td>
+                    <td></td>
+                    <td onclick="showChord('D7')" id="D7">D7</td>
+                    <td onclick="showChord('Eb7')" id="Eb7">Eb7</td>
+                    <td onclick="showChord('E7')" id="E7">E7</td>
+                    <td onclick="showChord('F7')" id="F7">F7</td>
+                    <td onclick="showChord('Fs7')" id="Fs7">F#7</td>
+                    <td onclick="showChord('G7')" id="G7">G7</td>
+                    <td></td>
+                </tr>
+            </table>
+        </main>
+
+        <footer>
+            Copyright &copy; Seamus Parker 2020 - <a href="https://www.instagram.com/seamus_parker/">Instagram</a>
+        </footer>
+
+
+
+    </div>
+    <script src="js/final.js"></script>
+</body>
+
+</html>

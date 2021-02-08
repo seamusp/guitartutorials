@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Tutorials :: Contact</title>
+    <link rel="stylesheet" href="css/final.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Guitar Tutorials</h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="chords.html">Chords</a>
+            <a href="tabs.html">Tabs</a>
+            <a href="tutorials.html">Tutorials</a>
+            <a href="contact.html" class="current-page">Contact</a>
+        </nav>
+        <main>
+            <h2>Contact</h2>
+            <p>
+                Use the form below to submit a comment. This can be a question, a review, or a suggestion for improving
+                this website. When you are done, click the submit button to send your comment.<br><br><span
+                    class="emphasis">* Indicates required fields.</span>
+            </p>
+            <br>
+            <hr><br><br>
+            <form name="contactForm" action="index.html" onsubmit="return validateForm()" method="POST">
+
+                <label for="fname">* First Name: </label>
+                <input type="text" name="fname" id="fname">
+                <br><br><br>
+                <label for="lname">Last Name: </label>
+                <input type="text" name="lname" id="lname">
+                <br><br><br>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email">
+                <br><br><br>
+                <label for="comments">* Comments</label>
+                <br><br>
+                <textarea name="comments" id="comments" cols="35" rows="6" placeholder="Comments..."></textarea>
+
+                <br><br><br>
+                <input type="submit" value="SUBMIT">
+                <br><br>
+            </form>
+        </main>
+
+
+
+
+        <footer>
+            Copyright &copy; Seamus Parker 2020 - <a href="https://www.instagram.com/seamus_parker/">Instagram</a>
+        </footer>
+    </div>
+    <script src="js/final.js"></script>
+</body>
+
+</html>

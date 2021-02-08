@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Tutorials :: Tutorials</title>
+    <link rel="stylesheet" href="css/final.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Guitar Tutorials</h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="chords.html">Chords</a>
+            <a href="tabs.html">Tabs</a>
+            <a href="tutorials.html" class="current-page">Tutorials</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <main>
+            <h2>Tutorials</h2>
+            <p>This page contains several useful tutorials for those getting into guitar for the first time. Click on a
+                topic that interests you to see an embedded video which covers that information.
+            </p>
+            <br>
+            <hr><br><br>
+            <div class="video-left">
+                <h4 onclick="showVid('tune')">How to Tune a Guitar</h4>
+                <div id="tune">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5jTsSvkBv60" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="video-right">
+                <h4 onclick="showVid('ezchords')">Chords For Beginners</h4>
+                <div id="ezchords">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TPP8Sioqpt4" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="video-left">
+                <h4 onclick="showVid('ezsongs')">Songs For Beginners</h4>
+                <div id="ezsongs">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/k3hve-PJEyU" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="video-right">
+                <h4 onclick="showVid('finger')">How to Fingerpick</h4>
+                <div id="finger">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z7xm_juNcPY" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+
+        </main>
+
+
+
+        <footer>
+            Copyright &copy; Seamus Parker 2020 - <a href="https://www.instagram.com/seamus_parker/">Instagram</a>
+        </footer>
+
+    </div>
+    <script src="js/final.js"></script>
+</body>
+
+</html>
